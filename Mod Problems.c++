@@ -3,11 +3,13 @@
 using namespace std;
 int main()
 {
-    int x, y;
-    cout << "Enter 'X' and 'Y' to solve 'X mod Y' \nEnter 'X' : ";
-    cin >> x;
-    cout << "Enter 'Y' : ";
-    cin >> y;
-    cout << "X mod Y = " << x % y << "\n";
+    int a, n;
+    cout << "Enter 'a' and 'n' to solve 'a mod n' \nEnter 'a' : ";
+    cin >> a;
+    cout << "Enter 'n' : ";
+    cin >> n;
+    int q=a/n;
+    int r=a-(q*n);
+    cout << "X mod Y = " << r << "\n";
     return 0;
 }
