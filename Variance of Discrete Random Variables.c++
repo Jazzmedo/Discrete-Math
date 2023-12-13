@@ -7,8 +7,7 @@ int main()
     int t;
     cout << "Enter The Number of ELements : ";
     cin >> t;
-    double check = 0.0;
-    double x[t], fx[t], xfx = 0, x2fx = 0;
+    double x[t], fx[t], xfx = 0, x2fx = 0,check = 0.0;
     while (true)
     {
         check = 0.0;
