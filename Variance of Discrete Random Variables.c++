@@ -7,7 +7,7 @@ int main()
     int t;
     cout << "Enter The Number of ELements : ";
     cin >> t;
-    double x[t], fx[t], xfx = 0, x2fx = 0,check = 0.0;
+    double x[t], fx[t], xfx = 0, x2fx = 0, check = 0.0;
     while (true)
     {
         check = 0.0;
@@ -22,7 +22,7 @@ int main()
         if (check == 1)
             break;
         else
-            cout<<"Logic error: The sum of 'f(x)' not equal to 1\nTry again\n";
+            cout << "Logic error: The sum of 'f(x)' not equal to 1\nTry again\n";
     }
     cout << "=========================================\n   X";
     for (int i = 0; i < t; i++)
@@ -30,7 +30,6 @@ int main()
     cout << "\nF(x)";
     for (int i = 0; i < t; i++)
         cout << " | " << fx[i];
-
     for (int i = 0; i < t; i++)
     {
         xfx += x[i] * fx[i];
